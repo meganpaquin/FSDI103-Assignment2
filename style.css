@@ -2,10 +2,10 @@
 body{
     font-family: 'VT323', monospace;
     font-size: 20px;
-    width: 50%;
+    width: 300px;
     border: 2px solid black;
     text-align: justify;
-    margin: 50px 22.5% 50px 22.5%;
+    margin: 50px auto 50px auto;
     padding: 5%;
 }
 
