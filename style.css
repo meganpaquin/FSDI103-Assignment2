@@ -1,0 +1,73 @@
+/*global*/
+body{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    width: 50%;
+    border: 2px solid black;
+    text-align: justify;
+    margin: 50px 22.5% 50px 22.5%;
+    padding: 5%;
+}
+
+/*header*/
+header p{
+    margin: 0;
+}
+
+/*title*/
+img{
+    width: 100px;
+    height: 100px;
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+h1{
+    font-size: 45px;
+}
+
+/*contact info*/
+#contact_info p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contact_info{
+    margin: 0 0 20px 0;
+}
+
+/*the receipt content table*/
+table{
+    margin: 0 1% 0 1%;
+    width: 98%;
+    text-transform: uppercase;
+}
+
+#subtotal{
+    text-align: right;
+    padding-right: 25px;
+}
+
+#taxes_row{
+    text-align: right;
+}
+
+#tax_percent{
+    padding-right: 25px;
+}
+
+#total_row{
+    text-align: right;
+    padding-right: 25px;
+}
+
+#total_without_tax, #tax_value, #total_plus_tax{
+    text-align: right;
+    width: 50px;
+    padding-right: 20px;
+    padding-left: 0;
+}
